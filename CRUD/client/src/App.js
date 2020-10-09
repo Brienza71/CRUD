@@ -7,8 +7,11 @@ function App() {
       <h1>CRUD APPLICATION</h1>
 
       <div className="form">
-        <input type="text" name="movieName" />
-        <input type="text" name="review" />
+        <label>Movie Name:</label>
+          <input type="text" name="movieName" />
+        <label>Review:</label>
+          <input type="text" name="review" />
+          <button>Submit</button>
       </div>
     </div>
   );
